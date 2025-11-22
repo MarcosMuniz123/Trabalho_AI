@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+
+.newBtn {
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.newBtn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center; 
+  gap: 0.5rem; 
+  text-decoration: none;
+}
+
+.logoIcon {
+  height: 35px;
+  width: 35px; 
+}
+
+.logoLink h2 {
+  color: #fff;
+  margin: 0; 
+  font-size: 1.5rem;
+}
